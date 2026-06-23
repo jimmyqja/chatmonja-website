@@ -2,6 +2,14 @@
 
 This folder is a static website for ChatMonJA.
 
+Included pages:
+
+- `index.html` — product page and downloads
+- `privacy.html` — privacy policy and data handling
+- `faq.html` — common installation and usage questions
+- `terms.html` — terms of use
+- `contact.html` — support email and Instagram
+
 Recommended GitHub Pages setup:
 
 1. Upload the current release files to a GitHub Release:
