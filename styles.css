@@ -496,6 +496,37 @@ footer a {
   font-size: 24px;
 }
 
+.contact-bubble {
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+  z-index: 20;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 48px;
+  padding: 0 20px;
+  background: linear-gradient(135deg, var(--purple), #c59cff);
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  border-radius: 999px;
+  box-shadow: 0 14px 36px rgba(57, 23, 110, 0.5);
+  color: #130923;
+  font-size: 14px;
+  font-weight: 900;
+  text-decoration: none;
+  transition: transform 160ms ease, box-shadow 160ms ease;
+}
+
+.contact-bubble:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 18px 42px rgba(57, 23, 110, 0.62);
+}
+
+.contact-bubble:focus-visible {
+  outline: 3px solid var(--gold);
+  outline-offset: 3px;
+}
+
 @media (max-width: 900px) {
   .topbar,
   .hero-grid,
@@ -565,5 +596,10 @@ footer a {
 
   .content-card {
     padding: 24px;
+  }
+
+  .contact-bubble {
+    right: 14px;
+    bottom: 14px;
   }
 }
