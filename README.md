@@ -19,4 +19,4 @@ Recommended GitHub Pages setup:
 3. Set the source to the `main` branch and the `/docs` folder.
 4. Share the generated GitHub Pages URL.
 
-The download buttons use GitHub’s `releases/latest/download/...` links, so future releases can reuse the same page if the uploaded asset names match the current version shown on the site.
+The download buttons use the exact GitHub release tag (`releases/download/v1.3.3/...`). GitHub’s `releases/latest/download/...` route does not include releases marked as pre-release. Update the tag, asset names, and displayed version together for each future release.

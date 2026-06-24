@@ -185,6 +185,24 @@ h3 {
   font-size: 13px;
 }
 
+.download-stat {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 8px;
+  margin: 8px 0 0;
+  padding: 9px 13px;
+  background: rgba(169, 112, 255, 0.1);
+  border: 1px solid rgba(169, 112, 255, 0.25);
+  border-radius: 999px;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.download-stat strong {
+  color: #d8c2ff;
+  font-size: 15px;
+}
+
 .app-card,
 .section,
 .install article,
